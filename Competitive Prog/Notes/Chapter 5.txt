@@ -1,0 +1,5 @@
+Merge Sort ---divide and conquer principle
+Complexity -- (nlogn) ---for all scenarios
+Technique used --- Recursion
+
+

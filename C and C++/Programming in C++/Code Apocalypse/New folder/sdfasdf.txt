@@ -1,0 +1,33 @@
+The Queen has been abducted and the King has choosen his most mightiest hero Sin to bring her back to the kingdom.
+Now the Queen has been imprisioned by the wicked witch at her tower. There are n walls between Sin and the tower.The wall i has height wi.Sin needs to jump over every wall in order to reach the Queen.When Sin jumps from one wall to another,his power increases by wk-wk+1(if the difference is negative Sin loses power).Sin must have non negative power at any moment or he will die.
+
+Initially Sin is at wall number 0 and has power 0.Sin has a wizard friend who can increase the height of the wall with his magic.But the wizard is greedy and asks for a gold coin every time he increases the height of the wall by 1 unit. What is the minimal number of gold coins sin need to spend in order to reach the queen without dying?
+
+Input Format
+
+The first contain t denoting number of testcases. The next line of the input contains n(The number of walls). The next line contains n integers w1, w2, w3,w4... wn .
+
+Constraints
+
+1<=t<=100 
+1?=?n?=?100000 
+1??=??wi??=??100000
+
+Output Format
+
+The output contains a t lines denoting the minimum number of gold coins needed to be spent.
+
+Sample Input 0
+
+2
+2
+1 2 
+6
+3 3 3 3 3 3
+Sample Output 0
+
+2
+3
+Explanation 0
+
+In the first test case: Sin can spend 2 gold coin to increase the height of wall 0 to 2. Then he can reach the final wall without dying.

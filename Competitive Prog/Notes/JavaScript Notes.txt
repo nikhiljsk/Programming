@@ -1,0 +1,171 @@
+console.log(typeof variablename)
+	tells the type of the variable when entered in the 
+	browser console in developer options
+TYPES OF VARIABLES
+number
+string
+null
+undefined (if not defined)
+bool
+syntax:
+var variable_name;
+if var keyword is not used  here then tthe browser interprets it as a global
+variable
+
+constant
+	const varible_name;
+
+let		//used for smaller scopes
+	let v=1
+	if(cond){
+		let v=2
+		console.log(v) }		//prints 2
+	console.log(v) 		//prints 1 
+
+TYPES OF OPERATORS 
+arithematic operators 
+supports unaray operator(a++)
+supports  shorthand form (a+=1)
+NaN number----not a number error(if a string is added to a integer)
+concatenation of strings is possible
+===     shows the value or content in the two variables are true
+==	shows the value is true even if the type is different
+similary a!=b
+	a!==b
+&&  || 
+
+terenary operator
+	a == b ? console.log("match") : console.log("not match");
+
+arrays are mutable
+pens = new Array("red", "blue", "yellow", 5 , 6);
+pens.length;
+Meathods
+Directly alter the array
+pens.reverse();
+pens.shift();------removes the first value of array
+pens.unshift('black',78);------adds new elements in the front of the arr
+pens.pop();
+pens.push('sdflk','sdfj');
+pens.splice(pos,num);
+	pos--from position
+	num---number of elements to remove
+
+ Returns a copy of the array
+pens.slice();----copies all the elements
+pens.indexOf('orange', num);
+	num----index position to start the search from 
+pens.join();
+	joins with comma by default
+	
+
+FUNCTIONS
+Syntax:
+	function fun_name(){}
+Types
+	Named Functions
+		functions we usually use
+	Anonymous Functions
+		functions with definition as soon as name declaration
+		and called with the help of a variable
+		Syntax:
+		var variable_name= function(){code}
+		//calling the function
+		variable_name();
+		//to know the function
+		console.log(variable_name);
+	Immediately invoked functions
+		browser runs the function as soon as it comes 
+		across the function
+		Syntax:
+			( function( d){code
+				           } ) ( parameters )
+		function is a keyword in here.
+		here the parameters should be declared previously.
+	
+	
+var course = {
+v1=..
+v2=..
+func(){}
+}
+var course = new object()   
+console.log(course.v1)
+console.log(course.func())
+
+
+//Creating a constructor object
+function Class() {   		//first letter of the class name should be capital
+var v1=...
+function fund(){}
+}
+var obj1 = new Class( parameters )
+
+//both are one and the same
+obj1.var
+obj1.["var"]
+
+
+//using arrays to wrap multiple objects is a good idea since you can call
+// the array name and the total variables in every object is returned and 
+// specific variables can also be accessed by the dot operator
+
+DOM elements
+document.getElementById()
+document.getElementByClassName()
+document.getElementByClassList()         //returns an array of strings with different class names with are usually seperated by spaces
+document.getElementByTagName()
+
+For most of the following this would work:  (with some exceptions like forms)	
+1. document.querySelector(".main-nav a")   //gets the first element
+2. document.querySelectorAll(".main-nav a")	//gets all the elements
+// for class names use ' . ' in the starting of the element class specification
+// for type selector you can directly use the tag name itself  
+// ' , ' can be used to differentiate between two different selectors
+
+document.querySelector(".main-nav a") .innerHTML
+ --- gives only the content present inside the anchor tag
+document.querySelector(".main-nav a").outerHTML
+--- gives the entire line with the syntax of the statement or tag used 
+
+Accessing the class names and modify
+document.querySelector(".heading").classList.remove("heading_another_name")
+
+similary .add() can be used to add a class name to the element
+
+document.querySelector(".heading_another_name").classList.toggle("heading")
+---turns on or off the display of the entire element
+
+Accessing the attributes
+
+const a = document.querySelector(".class");
+a.hasAttribute("target")
+a.setAttribute("target","_blank")
+a.getAttribute("target")
+
+
+Adding DOM elements
+
+Steps to add the DOM elements:
+
+1.Create the element
+2.Create the text node that goes inside the element that you just created
+3.Add the text node to the element (i.e step-1 element)
+4.Add the element to the DOM tree by just appendChild meathod to 
+   clearly append the element into the specific divsion under any other 
+   parent element
+
+var alttext = image.getAttribute("alt");
+var captionElement = document.createElement("figcaption");
+var captionText = document.createTextNode(alttext);
+captionElement.appendChild(captionText);
+
+Note : Check the video 'Add DOM elements' from lynda JavaScript essential training
+
+Apply CSS to an element
+	
+document.querySelector('.class').style.color = 'green';
+document.querySelector('.class').style.backgroundColor = 'blue';
+OR
+document.querySelector('.class').style.cssText = 'padding:1em,color:white;'
+

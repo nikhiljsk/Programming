@@ -1,0 +1,39 @@
+Different options and attributes in Tkinter
+LABEL WIDGET
+root
+pack()
+PhotoImage(file=' slsf.png')
+Label(root,text="",padx,pady)
+justify=LEFT,RIGHT,CENTER
+pack(side='right')
+compound=CENTER,BOTTOM,TOP,RIGHT,LEFT
+image=pic
+fg='red'
+font='Times 24 bold italic'
+bg='black'
+root.title("Hello World")
+Label.config(....)----used to change the table attr
+Label.after(1000,count)------1000 is the time after which the function is to be called and count is the name of the function to be called
+root.destroy()
+MESSAGE WIDGET
+msg=Message(root,text="",bg='').pack()
+msg.config(font="'")
+mainloop()
+anchor=N,E,W,S,NE,NW,SE,SW,CENTER----used with pack(anchor=W)
+relief=RAISED,GROOVED,RIDGE-----border Decoration
+VARIABLE CLASSES-----Used to validate and update the contents and variables used in chech boxes and radio buttons
+StringVar()
+DoubleVar()
+IntVar()
+BooleanVar()
+get()----used to get the current value
+set()---used to change the value
+RADIOBUTTON
+Radiobutton(root, 
+            text="Perl",
+            padx = 20, 
+            variable=v, 
+            value=2).pack(anchor=W)
+indicataron=0
+width=25
+padx=20

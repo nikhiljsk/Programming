@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int a[n];
+    int i,j,b,z;
+    b=n/10;
+    for(i=0;i<=9;i++)
+    {
+        a[i]=b;
+    }
+    z=n%10;
+    a[b]=z+2+a[b];
+    for(i=0;i<10;i++)
+    {
+    if(b>i)
+    a[i]=a[i]+10
+    }
+    for(i=0;i<10;i++)
+    cout<<a[i]<<" ";
+
+    return 0;
+    
+}

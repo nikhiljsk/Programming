@@ -1,0 +1,8 @@
+Static:Memory allocation is not possible
+Dynamic:Memory allocation and deallocation is 
+not possible
+
+allocating the memory to a pointer which already contains an address of a variable is called memory leak
+
+dangling pointer :pointer which contains the address of deallocated memory        
+---after deallocating the memory assign the pointer with NULL value so as to resolve the dangling pointer

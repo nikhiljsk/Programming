@@ -1,0 +1,32 @@
+You were an awesome programmer and no question in the world was hard for you until a brick fell on your head and you became a crazy serial killer. Now you are about to write a threatening message using the newspaper cuttings( Ransom Note). Given two string, 1st denoting the message you want to write and second denoting the letters in the newspaper tell if it is possible to write a message using the newspaper. 
+
+image
+
+Input Format
+
+First line contain 1st String-"Message" 
+Second line contain 2nd String-"Newspaper" 
+
+Constraints
+
+1 = length of String 1 and String 2 = 105
+string contains only lowercase letters from a-z
+
+Output Format
+
+Print "YES" or "NO" if it is possible
+
+Sample Input 0
+
+code
+apocalypse
+Sample Output 0
+
+NO
+Sample Input 1
+
+cypher
+codeapocalypseishere
+Sample Output 1
+
+YES

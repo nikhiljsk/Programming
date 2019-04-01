@@ -1,0 +1,77 @@
+IDLE --Integrated development env.
+Python consits of 3 interfaces
+1...Interactive(GUI)
+	interprets line by line and gives results after every line
+2...Developer(GUI)
+	interprets line by line and gives results after the interpretation of the entire
+	file
+3...Command line interface(CLI)
+	similar to interactive but designed for terminal
+
+Python is case sensitive
+Python has key words
+No declaration in python ex.int a;
+
+Every data type is in terms of class
+a=5;
+type(a) === class 'int'
+One variable can be used to overwrite with different types of data type
+
+????slack memory?---
+
+assignment of multiple variables is possible....
+ex-- 1...a=b=c
+     2...a,b,c=5,5.12,"hello"
+     3...a,b=b,a	#swapping variables in one go
+
+local variable > global variable 	#interms of priority
+to make a varible global just use the keyword "global" before the initialization of a variable even if the variable initialization
+is in the function---first declare the variable with global keyword and then initialize it.
+
+Python data types
+Lists
+Tuple
+Dictionaries
+
+
+Mutable objects---whose value is changeable similarly immutable
+Strings---Immutable----a="string'	#the interpreter return an error
+
+Positive and negative index are there in arrays also the strings are stored in the form of array of characters
+
+Logical operators---- and , or ,not -------not (x>10 and y>10)
+Arithematic -----x**y---x to the power of y
+bitwise--------x>>y (Shifts the bits of x y steps to the varialbee x to the right)
+
+Conditional statements
+
+if (x>y) :
+	statement 1;
+	statement 2;
+elif (y>x) :
+	statement 3;
+else:
+	statement 4;
+
+Loops:
+for i in range(1,5)---1,2,3,4
+for i in range(5)---0,1,2,3,4
+for i in range(1,7,2)----1,3,5--------(starting,ending,Step value[increamenting])
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+

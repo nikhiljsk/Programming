@@ -1,0 +1,12 @@
+grid and cloud
+behaviour and hr interview   
+Shortcuts
+ctrl+n --- new file
+ctrl+shift+n ----new layer
+ctrl+backspace----applying background color
+alt+backspace---applying foreground color
+ctrl+T----resizing any layer
+ctrl+d----deselecting the selection
+ctrl+e----merge
+
+email---sahil@mycareerinit.com

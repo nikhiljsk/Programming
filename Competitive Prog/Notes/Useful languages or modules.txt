@@ -1,0 +1,2 @@
+<canvas> in HTML 5 can be used to create animations in browser 
+using JS.

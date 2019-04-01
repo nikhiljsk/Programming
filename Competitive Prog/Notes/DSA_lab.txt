@@ -1,0 +1,4 @@
+circular ,header ,two way linked list
+stacks using array and linked list
+queues using array and linked list
+tower of hanoi

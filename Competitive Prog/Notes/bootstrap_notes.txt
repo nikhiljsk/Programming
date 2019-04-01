@@ -1,0 +1,48 @@
+Bootstrap notes
+
+'container'  for class division
+'display-1'  for class division similarly 2,3,4,5 can be used
+'lead' for paragraph
+text-justify
+text-nowrap
+For Class
+text-uppercase
+text-lowercase
+text-capitalize
+
+text-center
+text-sm-right
+text-md-left
+
+lists
+list-inline
+list-inline-item
+blockquote
+blockquote-footer for author name
+blockquote-footer-reverse
+
+text
+text-success ---green
+text-info  ----blue
+text-warning   ----orange
+text-danger  ---red
+text-white
+
+bg-primary   --blue
+bg-success
+bg-danger
+bg-inverse   -black
+bg-faded   ---light grey
+bg-warning
+
+image
+img-fluid  ---reponsive image
+rounded
+rounded-right,circle,rounded-0
+img-thumbnail  ---rounded 1px
+float-left,right
+text-center 
+mx-auto ---center block images
+figure
+figure-img
+figure-caption to the text that describes image
