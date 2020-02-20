@@ -1,0 +1,74 @@
+NLTK  -- Natural Language Processing  (Spacy, AllenNLP, Gensim)
+
+Syntax refers to the structure of a program written in a programming language. 
+Semantics describes the relationship between the sense of the program
+
+1. word_tokenize() - Split sentences into words (tokens)
+2. sent_tokenize() - Split paragraphs into sentences
+3. pos_tag() 		- Parts of speech
+4. ne_chunk()      - Used for NER
+
+Preprocessing techniques
+1. Stopwords
+	is, are.. (nltk.corpus)
+	
+2. Lemmatization 
+	leaves - leaf 
+	stems - stem
+	went - go
+	gone - go
+	running - run
+	(nltk.corpus)
+	
+3. Stemming
+	leaves - lea
+	leaf  - lea
+	Different types of stemming - Snowball stemmer...
+	
+4. HTML tags remove
+	beautifulsoup
+	
+5. punctuations
+	nltk
+	
+6. lower uppercase 
+	python inbuilt
+
+NLP Methodoligies
+1. Named Entities or NER (recognision)
+	Person, Org, Location, Cardinal (number), Language, 	Nationality of a PERSON, Objects.
+ 
+2. Dependency Parser
+	Relation between different words in a sentence
+
+3. Sentiment Analysis
+	Any given article or text...the algo with decide the 	on the negativity of the article
+
+4. Keyword extraction
+	Extracting important keywords
+
+5. Emotion analysis or targetted emotion
+	Joy, Fear, Disgust...
+
+
+Not included in Machine learning
+1. Lexicons
+	Dictionary of words related to a domain
+	 Joy- happy, jubilient
+	 crime - criminal, fraud, scandal
+	 
+------
+ML on NLP
+Word2Vec --- Converts words into a vector [1, 2932.31, 2] 
+(BERT, ELMO)
+
+NLP Topic Modelling (Based on probabilities)
+LDA
+    W1 W2 ... W100
+D1  1 0  ..... 1
+D2
+D3 
+
+
+IBM NLU Demo
+Spacy demo -- Wrapper library on top of NLTK

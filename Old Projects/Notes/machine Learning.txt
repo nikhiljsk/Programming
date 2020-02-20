@@ -1,0 +1,76 @@
+Machine Learning
+
+Scikit-Learn (Sklearn)
+(Gensim, SciPy, Keras, Tensorflow)
+
+Supervised -- Regression(continous), Classification (discrete)
+Unsupervised -- Clustering
+
+Features - input
+Labels, Ground_truth - output
+
+Model Structure
+1. Model.fit(data) --- Training
+2. Model.predict(test) -- Predictions
+3. Metrics             -- Result analysis 
+(Accuracy, Precison, Recall, F1 Score (Macro F1), Micro F1, , Confusion matrix, classification report)
+https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
+
+Models
+Regression
+1. Linear
+2. SVR
+3. Polynomial
+4. Random Forest
+5. Decision tree
+
+Classification
+1. Logistic Regression 
+2. SVC
+3. RFC
+4. DTC
+5. Naive Bayes Classifier
+
+Clustering
+1. K-means
+2. C-means
+3. DBScan
+4. Brown clustering
+
+Recommedations
+1. Collaborative recommender systems --> Netflix
+	based on a group of people
+    1. Memory based -- simple & easy to explain
+        1. user based --> user likes movies
+        2. item based --> user rates the movie
+    2. Model based -> matrix factorization (Deals better with sparsity)
+	
+2. Content based recommender systems -- based on metadata. recommendation based on the actors, cast and crew.
+
+
+Dimension Reduction (Number of features)
+1. PCA (Principal Component Analysis)
+Reducing dimensionality of data for easy viz and also for reducing the complexity of the data for model training...while maintaing the variance of the data...(Scale is modified)
+
+Proces::
+	10 -> Pruning (reducing data) -> 8
+	8 -> (2D) Converts 8 columns into set of 2 features
+	It groups together similar features into 2 differnt groups
+
+Machine Learning Basic Code:
+Supervised
+
+from sklearn.linear import LogisticRegression
+
+model = LogisticRegression()
+
+model.fit(X_train, Y_train) #training
+
+predictions = model.predict(X_test) #prediction
+
+classification_report(predictions, Y_test) #metrics
+
+Unsupervised
+model = Kmeans(num_of_clusters=5)
+model.fit_transform(X_train)
+metrics -> Coherence (mutual information), Inter & Intra-cluster distance
